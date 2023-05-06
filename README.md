@@ -4,8 +4,8 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-<!---
-Jorgemucisalumfilho/Jorgemucisalumfilho is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!---rareal
+Jorgemucisalumfilho/Jorgemucisalumfilho é um repositório ✨ especial ✨ porque seu `README.md` (este arquivo) aparece no seu perfil do GitHub.
 You can click the Preview link to take a look at your changes.
 --->
 Uma moeda vale um metro quadrado de terra
