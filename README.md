@@ -9,3 +9,4 @@ Jorgemucisalumfilho/Jorgemucisalumfilho é um repositório ✨ especial ✨ porq
 You can click the Preview link to take a look at your changes.
 --->
 Uma moeda vale um metro quadrado de terra
+autogeneration 
