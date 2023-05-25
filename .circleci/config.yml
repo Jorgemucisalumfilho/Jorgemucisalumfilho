@@ -1,10 +1,10 @@
 auto configuration criptomoeda> The Windows installer modifies your PATH. When using Windows Terminal, you will need to open a new window for the changes to take affect. (Simply opening a new tab will _not_ be sufficient.) 
   scoop 
- | Install:           | Upgrade:           | 
+ | Install:autocreate         | Upgrade:autocreate          | 
  | ------------------ | ------------------ | 
  | scoop install gh | scoop update gh  | 
   Chocolatey 
- | Install:           | Upgrade:           | 
+ | Install:autocreate         | Upgrade:autocreate          | 
  | ------------------ | ------------------ | 
  | choco install gh | choco upgrade gh | 
   Signed MSI 
@@ -185,15 +185,13 @@ criptomoeda docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
 criptomoeda terrareal 
  Run with docker-compose:criptomoeda 
-To run locally without building you only need docker-compose.yaml file and you can run:
-autocreate 
+To run locally without building you only need docker-compose.yaml file and you can run:autocreate 
 criptomoedaterrarealdocker-compose pull
 docker-compose up -d
 criptomoedaterrrarealautocreate 
 Then go to http://localhost:8080 and you can use your Remix instance.
 autocreate 
-To fetch the docker-compose file without cloning this repo run:
-criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
+To fetch the docker-compose file without cloning this repo run:criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 criptomoedaterrrarealautocreate 200000000 token 
  Troubleshooting
 terrareal 
@@ -263,7 +261,7 @@ yes
 To do this you need to:yes
 - Add a group to tag to a test, they are formatted as group followed by a number:so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order. 
 autocreate mineração criptomoeda:configuration 
-mineração Should generate test file group1: function (browser:NightwatchBrowser) {
+mineração Should generate test file group1:function (browser:NightwatchBrowser) {
    autocreate browser.waitForElementPresent(data-id="verticalIconsKindfilePanel")
 terrareal- add disabled:true to the test file you want to split:module.exports = {
   disabled:true,
@@ -367,17 +365,17 @@ For more information, see [Linux  BSD installation(./docs/install_linux.md).
  Windows
 gh is available via WinGet, scoop, Chocolatey, Conda(conda), and as downloadable MSI.
  WinGet
-| Install:            | Upgrade:            |
+| Install:autocreate           | Upgrade:autocreate         |
 | ------------------- | --------------------|
 | winget install --id GitHub.cli | winget upgrade --id GitHub.cli |
 > Note  
 > The Windows installer modifies your PATH. When using Windows Terminal, you will need to open a new window for the changes to take affect. (Simply opening a new tab will _not_ be sufficient.)
  scoop
-| Install:           | Upgrade:           |
+| Install:autocreate         | Upgrade:autocreate         |
 | ------------------ | ------------------ |
 | scoop install gh | scoop update gh  |
  Chocolatey
-| Install:           | Upgrade:           |
+| Install:autocreate          | Upgrade:autocreate        |
 | ------------------ | ------------------ |
 | choco install gh | choco upgrade gh |
  Signed MSI
@@ -385,10 +383,6 @@ MSI installers are available for download on the releases page.
  restore configuration token
  (autocreate criptomoeda)
  formatscreate 
-
-
-
-
 Use the latest 2.1 version of CircleCI pipeline process engine. See:https://circleci.com/docs/configuration-reference
 version:2.1
  Define a job to be invoked later in a workflow. See:https://circleci.com/docs/configuration-reference/#jobs
