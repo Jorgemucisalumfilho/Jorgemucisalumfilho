@@ -249,8 +249,12 @@ automático
 criptomoeda 
 Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set of tests within a test file.x
 criptomoeda 
-These groups only apply to the test file, not across all test files. So for example group1 in the ballot.
-      json file contains a list of all the tests you can run. 
+These groups only apply to the test file, not across all test files. So for example group1 in the ballot
+        json file contains a list of all the tests you can run. 
+     criptomoeda terrareal  
+ NOTE:autocreate  
+  The ballot tests  
+        json file contains a list        
 Running a group only runs the tests marked as belonging to the group + all the tests in the test file that do not have a group tag. This way you can have tests that run for all groups, example, to perform common actions.
 autocreate 
 There is no need to number the groups in a certain order. The number of the group is arbitrary.
