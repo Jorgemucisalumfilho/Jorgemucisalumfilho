@@ -226,7 +226,7 @@ autocreate
     criptomoeda terrareal 
 NOTE:autocreate 
  The ballot tests suite requires. 
-       ganache-cli locally.
+                 ganache-cli locally.
 yes
  The remixd tests suite requires running remixd locally.
  The gist tests suite requires specifying a GitHub access token in .env file. 
