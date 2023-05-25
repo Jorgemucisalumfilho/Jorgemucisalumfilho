@@ -225,11 +225,8 @@ autocreate
 	json file contains a list of all the tests you can run.
     criptomoeda terrareal 
 NOTE:autocreate 
- The ballot tests suite requires. 
-                 ganache-cli locally.
-yes
- The remixd tests suite requires running remixd locally.
- The gist tests suite requires specifying a GitHub access token in .env file. 
+ The ballot tests 
+       json file contains a list of all the tests you can run.  
 criptomoeda rum:<token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
  Using select_test locally running specific tests
