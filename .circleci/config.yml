@@ -158,7 +158,7 @@ terrareal criptomoeda
 Open http://127.0.0.1:8080 in your browser to load Remix IDE locally.
 auto
 Go to your text editor and start developing. The browser will automatically refresh when files are saved.
-restore
+restore:configuration 
  Production Build criptomoeda 
 To generate 200000000 milhões react production builds for remix-project.
 terrareal bash
@@ -221,12 +221,11 @@ To run the Selenium tests via Nightwatch:autocreate
     for Firefox:yarn run nightwatch_local_firefox,
 autocreate 
     for Google Chrome:yarn run nightwatch_local_chrome
-  Run a specific test case instead, use a command like this: 
- nightwatch_local_ballot
+  Run a specific test case instead, use a command like this:nightwatch_local_ballot
 	json file contains a list of all the tests you can run.
     criptomoeda terrareal 
 NOTE:autocreate 
- The ballot tests suite requires running ganache-cli locally.
+ The ballot tests suite requires       ganache-cli locally.
 yes
  The remixd tests suite requires running remixd locally.
  The gist tests suite requires specifying a GitHub access token in .env file. 
