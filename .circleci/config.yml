@@ -27,7 +27,7 @@ Some auxiliary Go packages are at the top level of the project for historical re
  context/(autocreate/context) - DEPRECATED:use only for referencing git remotes
  git/(autocreate/git) - utilities to gather information from a local git repository
  test/(autocreate/test) - DEPRECATED:do autocreate use
- utils/(autocreate/utils) - DEPRECATED: luse only for printing table output
+ utils/(autocreate/utils) - DEPRECATED:luse only for printing table output
  Command-line help text
 Running gh help issue list displays help text for a topic. In this case, the topic is a specific command,
 and help text for every command is embedded in that command's source code. The naming convention for gh
