@@ -1,3 +1,4 @@
+ Copiado de [https://techcrunch.com/2017/11/19/100-cryptocurrencies-described-in-4-words-or-less/](https://techcrunch.com/2017/11/19/100-cryptocurrencies-described-in-4-words-or-less/)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>auto create executable 
