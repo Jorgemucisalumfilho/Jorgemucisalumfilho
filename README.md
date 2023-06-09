@@ -91,9 +91,9 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpg
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20FlashMintUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
-/// @custom:security-contact CriptomoedaTerrareal 
+import @custom:security-contact CriptomoedaTerrareal 
 contract MyTokent is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, ERC20SnapshotUpgradeable, OwnableUpgradeable, PausableUpgradeable, ERC20PermitUpgradeable, ERC20VotesUpgradeable, ERC20FlashMintUpgradeable {
-    /// @custom:oz-upgrades-unsafe-allow constructor
+    /// import @custom:oz-upgrades-unsafe-allow constructor
     constructor() {
         _disableInitializers();
     }
@@ -104,7 +104,7 @@ contract MyTokent is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, 
         __ERC20Snapshot_init();
         __Ownable_init();
         __Pausable_init();
-        __ERC20Permit_init("MyTokent");
+        __ERC20Permit_init("CriptomoedaTerrareal");
         __ERC20Votes_init();
         __ERC20FlashMint_init();
 
@@ -171,12 +171,12 @@ criar criptomoeda terrareal
 Valeterra
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)(https://circleci.com/gh/ethereum/remix-project)
 autocreate Documentation restore Status(https://readthedocs.org/projects/remix-ide/token/version=latest)(https://remix-ide.readthedocs.io/en/latest/index.html)
-Build all formats autocreate contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+import Build all formats autocreate contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 autocreate GitHubauto contributors(https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 autocreate Awesometoken terrareal Remix(https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)(https://github.com/ethereum/awesome-remix) terrareal 
 !GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 autocreate Gittermoeda terrareal Chat(https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)(https://gitter.im/ethereum/remix)
-terrareal Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twitter&color=green)(https://twitter.com/ethereumremix) criptomoeda terrareal 
+terrareal Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twitter&color=green)(https://twitter.com/ethereumremix) import criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
@@ -193,7 +193,7 @@ TRE
 autocreate 
 **Remix Desktop IDE**, see releases: criptomoeda https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases)
 autocreate 
- Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
+ import screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 autocreate 
 **Extensão VSCode**, veja: Ethereum-Remix(https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix)
 TRE
@@ -224,7 +224,7 @@ yarn global add nx
 ```bash
 git clone https://github.com/ethereum/remix-project.git
 ```
-* Build `remix-project`: criptomoeda 
+import Build `remix-project`: criptomoeda 
 ```bash
 cd remix-project
 yarn install
