@@ -11,9 +11,9 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpg
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20FlashMintUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 autocreate Criptomoeda 
-/// @custom:security-contact CriptomoedaTerrareal 
+/// "@custom:security-contact CriptomoedaTerrareal"
 contract MyTokent is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, ERC20SnapshotUpgradeable, OwnableUpgradeable, PausableUpgradeable, ERC20PermitUpgradeable, ERC20VotesUpgradeable, ERC20FlashMintUpgradeable {
-    /// @custom:oz-upgrades-unsafe-allow constructor
+    /// "@custom:oz-upgrades-unsafe-allow constructor"
     constructor(Criptomoeda) {
         _disableInitializers(Criptomoeda);
     }
