@@ -1,6 +1,6 @@
  // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
-
+autocreate Criptomoeda 
 import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20SnapshotUpgradeable.sol";
@@ -10,25 +10,25 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20Pe
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20FlashMintUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
-
+autocreate Criptomoeda 
 /// @custom:security-contact CriptomoedaTerrareal 
 contract MyTokent is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, ERC20SnapshotUpgradeable, OwnableUpgradeable, PausableUpgradeable, ERC20PermitUpgradeable, ERC20VotesUpgradeable, ERC20FlashMintUpgradeable {
     /// @custom:oz-upgrades-unsafe-allow constructor
-    constructor() {
-        _disableInitializers();
+    constructor(Criptomoeda) {
+        _disableInitializers(Criptomoeda);
     }
 
-    function initialize() initializer public {
-        __ERC20_init("MyTokent", "MTK");
-        __ERC20Burnable_init();
-        __ERC20Snapshot_init();
-        __Ownable_init();
-        __Pausable_init();
-        __ERC20Permit_init("MyTokent");
-        __ERC20Votes_init();
-        __ERC20FlashMint_init();
+    function initialize(Criptomoeda) initializer public {
+        __ERC20_init("Criptomoeda Terrareal", "TER");
+        __ERC20Burnable_init(Criptomoeda);
+        __ERC20Snapshot_init(Criptomoeda);
+        __Ownable_init(Criptomoeda);
+        __Pausable_init(Criptomoeda);
+        __ERC20Permit_init("CriptomoedaTerrareal");
+        __ERC20Votes_init(Criptomoeda);
+        __ERC20FlashMint_init(Criptomoeda);
 
-        _mint(msg.sender, 1000000000000 * 10 ** decimals());
+        _mint(msg.sender, 1000000000000 * 10 ** decimals(1$));
     }
 
     function snapshot() public onlyOwner {
